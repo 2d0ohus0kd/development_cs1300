@@ -1,4 +1,40 @@
 .App {
+  padding: 10px;
+}
+header {
+  position: fixed;
+  top: 0;
+}
+.main {
+  margin-left: 350px;
+  margin-top: 20px;
+}
+img {
+  width: 100px;
+}
+.bakeryContent {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+}
+.BakeryItem {
+  border: 1px solid black;
+  margin: 2px;
+  padding: 5px;
+}
+.bakeryItemName {
+  font-weight: bold;
+}
+.filtersort {
+  display: flex;
+  margin-bottom: 30px;
+  flex-direction: column-reverse;
+}
+#reset {
+  margin-top: 30px;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +71,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

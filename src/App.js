@@ -148,10 +148,12 @@ function App() {
         <button onClick={resetFunction} id="reset">Reset</button>
           <div>
             <p>Filters:</p>
+            <p className="bakeryItemName">Types:</p>
             <input type="checkbox" id="filter1" name="type" value="Sweet" onChange={handleFilterClick} checked={filter1 != 0}/>
             <label for="filter1"> Sweet</label><br/>
             <input type="checkbox" id="filter2" name="type" value="Savory" onChange={handleFilterClick} checked={filter2 != 0}/>
             <label for="filter2"> Savory</label><br/>
+            <p className="bakeryItemName">Dietary Restrictions:</p>
             <input type="checkbox" id="filter3" name="kosher" value="kosher" onChange={handleFilterClick} checked={filter3 != 0}/>
             <label for="filter3"> Kosher</label><br/>
             <input type="checkbox" id="filter4" name="glutenfree" value="glutenfree" onChange={handleFilterClick} checked={filter4 != 0}/>
